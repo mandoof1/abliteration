@@ -1,0 +1,25 @@
+# datasets (fetched at run time, not committed)
+data/
+
+# pipeline outputs — models are 18 GB, never commit
+out/
+*.pt
+*.safetensors
+ABLIT.json
+
+# run artifacts
+*.log
+*.pid
+
+# caches / env
+__pycache__/
+*.py[cod]
+.cache/
+hf-cache/
+.venv/
+venv/
+
+# editors / os
+.DS_Store
+.idea/
+.vscode/
