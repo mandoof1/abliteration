@@ -8,6 +8,7 @@ a post-hoc, training-free weight edit, no gradient steps, base weights never mod
 
 **Published weights:** [Flexingmeow/MiMo-V2.6-Distill-Qwen-9B-Abliterated](https://huggingface.co/Flexingmeow/MiMo-V2.6-Distill-Qwen-9B-Abliterated)
 **Full write-up:** [`docs/model-card.md`](docs/model-card.md)
+**Used in production:** this pipeline is the final build stage of [Wolfram](https://github.com/mandoof1/wolfram), the HoneySentinel honeypot's cyber-analysis model.
 
 | | Refusal | Math acc | Harmless NLL | First-token KL |
 |---|---|---|---|---|
